@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Simple Math</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mathematical Operators</h1>
+    </header>
+
+    <main>
+        <section class="input-card-box">
+            <div class="input-field">
+                <input type="number" id="input1" placeholder="Enter a Digit....." />
+
+                <input type="number" id="input2" placeholder="Enter a Digit....." />
+            </div>
+            <div class="input-field">
+
+                <input type="number" id="input3" placeholder="Enter a Digit....." />
+
+                <input type="number" id="input4" placeholder="Enter a Digit....." />
+            </div>
+        </section>
+
+        <section class="btn">
+            <button type="button" class="btn-calculate" id="btn-calculate" onclick="calculate()">Calculate</button>
+            <button type="button" class="btn-reset" id="btn-reset" onclick="reset()">Reset</button>
+        </section>
+
+        <section class="output-card-box">
+            <div class="output-field">
+                <div>
+                    <label for="output1">Sum</label>
+                    <span class="output" id="output1">0</span>
+                </div>
+
+                <div class="output-adjust">
+                    <label for="output2">Product</label>
+                    <span class="output" id="output2">0</span>
+                </div>
+            </div>
+
+            <div class="output-field">
+                <div>
+                    <label for="output3">Smallest</label>
+                    <span class="output" id="output3">0</span>
+                </div>
+
+                <div class="output-adjust">
+                    <label for="output4">Largest</label>
+                    <span class="output" id="output4">0</span>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1>&copy; Dam Co. </h1>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
